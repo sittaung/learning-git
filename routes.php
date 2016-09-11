@@ -9,3 +9,5 @@ Route::get('report', function ()
 {
 	return View::make('report');
 });
+
+Route::resource('lessons', 'LessonsController');
