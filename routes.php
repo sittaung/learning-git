@@ -11,3 +11,5 @@ Route::get('report', function ()
 });
 
 Route::resource('lessons', 'LessonsController');
+
+Route::resource('reports', 'ReportsController');
